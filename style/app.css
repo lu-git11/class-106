@@ -1,0 +1,19 @@
+
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+#list{
+    background-color: lightcoral;
+    flex: 2;
+}
+
+#form{
+    background-color: beige;
+    flex: 2;
+}
+
+
+

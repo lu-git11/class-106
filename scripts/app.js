@@ -1,13 +1,23 @@
+/*
+let title=title;
+let description=description;
+let color=color;
+let status=status;
+let date=date;
+let budget=budget;
+*/
 
-function sayHello()
+function saveTask()
 {
-    console.log("Hello again")
+    console.log("saveTask is running");
 }
+
 
 function init()
 {
-    console.log("Hello, Im init");
-    sayHello();
+    console.log("the init is running");
+    $("#submit").click(saveTask);
+
 }
 
 window.onload = init;//wait til html and css loads to execute function
